@@ -27,7 +27,7 @@ function Sync-BcContainerApp {
         [Parameter()]
         [string] $appVersion,
         [Parameter(Mandatory = $false)]
-        [ValidateSet('Add','Clean','ForceSync')]
+        [ValidateSet('Add','Clean','Development','ForceSync')]
         [string] $Mode,
         [switch] $Force
     )
